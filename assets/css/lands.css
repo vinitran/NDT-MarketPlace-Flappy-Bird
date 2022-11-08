@@ -1,0 +1,108 @@
+.body-container{
+    display: flex;
+}
+
+.body-container .body-left-container{
+    width: 270px;
+    border-right: 1px solid rgb(89, 93, 121);
+    padding: 32px 21px;
+    height: calc(100vh - 110px);
+    overflow-y: auto;
+}
+
+.body-container .body-left-container .input{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.4);
+}
+
+.body-container .body-left-container .input:focus{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #1cc48c;
+    box-shadow: 0px 0px 5px #1cc48c;
+}
+
+.body-container .body-right-container{
+    flex: 1 1 0%;
+    padding: 24px 32px 32px;
+    height: calc(100vh - 110px);
+    overflow-y: auto;
+    margin: 0px auto;
+}
+
+.body-right-container .land-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: flex-start;
+    margin: 0px -10px 1rem;
+}
+
+.body-right-container .land-item-wrapper{
+    width: 208px;
+    border: 1px solid rgb(89, 93, 121);
+    border-radius: 4px;
+    height: calc(100% - 16px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 356px;
+    padding: 0px 1rem;
+    margin: 10px;
+    background: url(https://marketplace.wanakafarm.com/static/media/bg-nft.483ac537.svg) center center / contain no-repeat;
+}
+
+.land-item-wrapper:hover{
+    text-decoration: none;
+    box-shadow: 0px 0px 10px rgb(3, 186, 252);
+}
+
+.land-item-wrapper .land-id{
+    background-color: rgb(255, 152, 0);
+    margin-top: 16px;
+    border-radius:4px;
+    padding: 2px 8px;
+    font-size: 14px;
+    min-width: 50px;
+    font-weight: 500;
+    max-width: fit-content;
+    color: rgb(250, 250, 250);
+}
+
+.land-item-wrapper .land-middle{
+    display: flex;
+    justify-content: center;
+}
+
+.land-item-wrapper .land-middle .land-image{
+    position: relative;
+}
+
+.land-item-wrapper .land-middle .land-image .background{
+    height: 250px;
+    width: auto;
+}
+
+.land-item-wrapper .land-middle .land-image .bird{
+    width: 70%;
+    position: absolute;
+    top: 30px;
+    left: 46%;
+    transform: translateX(-50%);
+}
+
+.land-item-wrapper .land-price{
+    color: rgb(250, 250, 250);
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.land-item-wrapper .land-price .icon{
+    font-size: 15px;
+    margin-right: 10px;
+}

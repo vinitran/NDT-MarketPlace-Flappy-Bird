@@ -1,0 +1,16 @@
+header{
+    background-color: rgb(24, 26, 38);
+    padding: 0px 20px;
+    min-height: 60px;
+    font-size:15px;
+}
+
+body{
+    background: rgb(40, 41, 61);
+    font-size: 16px;
+}
+
+footer{
+    font-size: 45px;
+
+}

@@ -1,0 +1,29 @@
+.nav-body-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 12px;
+    height: 50px;
+    border-bottom: 1px solid rgb(89, 93, 121);
+}
+
+.nav-body-container .nav-body-wrapper{
+    display: flex;
+    padding: 10px 20px;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.nav-body-container .nav-body-wrapper[aria-current="page"]{
+    color: rgb(28, 196, 140);
+  }
+
+.nav-body-container .nav-body-wrapper:active{
+    
+}
+
+.nav-body-container .nav-body-wrapper img{
+    margin-right: 10px;
+    height: 29px;
+}
