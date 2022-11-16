@@ -14,13 +14,22 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/vue-fontawesome": "^2.0.8",
     "@nuxtjs/fontawesome": "^1.1.2",
+    "@toruslabs/torus-embed": "^1.37.0",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "authereum": "^0.1.14",
+    "bitski": "^3.2.0",
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "^2.22.0",
     "core-js": "^3.25.3",
+    "ethers": "^5.7.2",
+    "fortmatic": "^2.4.0",
     "nuxt": "^2.15.8",
     "nuxt-fontawesome": "^0.4.0",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "web3": "^1.8.0",
+    "web3modal": "^1.9.9",
+    "web3modal-vue": "^1.0.5"
   }
 }

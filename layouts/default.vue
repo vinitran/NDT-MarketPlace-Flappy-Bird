@@ -1,22 +1,24 @@
 <template>
   <div>
     <Header />
-    <navbarBody/>
+    <navbarBody />
     <Nuxt />
-    <Footer />
   </div>
 </template>
 
 <script>
+import Header from "~/components/header.vue";
+import Footer from "~/components/footer.vue";
+import navbarBody from "~/components/navbarBody.vue";
+const ethers = require("ethers");
 
-import Header from "~/components/header.vue"
-import Footer from "~/components/footer.vue"
-import navbarBody from "~/components/navbarBody.vue"
+import birdAbi from "@/contractData/birdAbi";
+import birdAddress from "@/contractData/birdAddress";
 export default {
   components: {
-    Header, 
-    Footer, 
-    navbarBody
+    Header,
+    Footer,
+    navbarBody,
   },
-}
+};
 </script>

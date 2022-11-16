@@ -1,0 +1,2 @@
+const birdAddress = "0xB5657aDD0B8f5D114E33f429333a928F46a5AeE6"
+export default birdAddress

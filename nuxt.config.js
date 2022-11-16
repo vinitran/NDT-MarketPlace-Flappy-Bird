@@ -23,6 +23,7 @@ export default {
     "~/assets/css/navbarBody.css",
     "~/assets/css/lands.css",
     "~/assets/css/landDetail.css",
+    "~/assets/css/mint.css",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

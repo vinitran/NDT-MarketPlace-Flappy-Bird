@@ -1,0 +1,2 @@
+const marketplaceAddress = "0x683eC405d58e257A8deb2A50806483fEB548af59"
+export default marketplaceAddress

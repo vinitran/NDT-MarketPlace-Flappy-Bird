@@ -1,0 +1,2 @@
+const viniAddress = "0xDceD407ca32dfdB66D2C0636AAc910D400fF9C23"
+export default viniAddress
